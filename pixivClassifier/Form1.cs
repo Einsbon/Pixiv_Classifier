@@ -172,5 +172,14 @@ namespace pixivClassifier
                 webBrowser1.Visible = true;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("픽시브 자동 분류 프로그램 입니다. 태그 이름으로 분류가 가능해요. " +
+                "프로그램의 사용 방법은 다음 동영상 주소에 있습니다.\r\n\r\n" +
+                "https://youtu.be/1ihgWXzztQQ" +
+                "\r\n\r\n개발자 블로그: http://blog.naver.com/einsbon" +
+                "\r\n 오류 지적 환영.");
+        }
     }
 }
