@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.btnClassify = new System.Windows.Forms.Button();
             this.btnClassifyStop = new System.Windows.Forms.Button();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -37,7 +36,6 @@
             this.btnFolderPaste = new System.Windows.Forms.Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.txtTag = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -125,10 +123,6 @@
             this.webBrowser1.ScriptErrorsSuppressed = true;
             this.webBrowser1.Size = new System.Drawing.Size(1069, 519);
             this.webBrowser1.TabIndex = 10;
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // txtTag
             // 
@@ -275,7 +269,6 @@
         private System.Windows.Forms.Button btnFolderPaste;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox txtTag;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.RadioButton radioButton4;
